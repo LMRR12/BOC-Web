@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: "Poppins","sans-serif";
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url("./assets/screenshot.png") no-repeat center center/cover;
+    z-index: -1;
+}
+
+.container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.363);
+  }
+
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: justify;
+    width: 60%;
+    margin-right: 4%;
+}
+
+.content h1{
+    font-size: 36px;
+}
+
+.content .paragraph{
+    font-size: 14px;
+}
+
+.content h4{
+    font-size: 24px;
+}
+
+.logo{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    height: 400px;
+}
+
+.buttons{
+    display: inline-block;
+    background-color: rgb(34, 216, 146);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5%;
+    border: 3px solid white;
+    font-weight: bold;
+}
+
+.buttons:hover{
+    background-color: green;
+}
+
+h5 a{
+    text-decoration: none;
+    color: orangered;
+}
+
+/* .typewriter{ 
+    overflow: hidden; /* Ensures the content is not revealed until the animation *
+    border-right: .15em solid green; /* The typwriter cursor *
+    white-space: nowrap; /* Keeps the content on a single line *
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens *
+    letter-spacing: .15em; /* Adjust as needed *
+    
+    animation: 
+      typing 4.5s steps(32, end) infinite alternate 1s,
+      blink-caret .75s step-end infinite;
+    } */
+  
+  /* The typing effect 
+   @keyframes typing { 
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 50ch;
+    }
+    
+  }
+  
+  /* The typewriter cursor effect 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: green; }
+  /* } */
+
+    @media only screen and (max-width: 992px) { 
+  
+
+    .all {
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow: hidden;
+    }
+    
+    .content {
+      padding: 0 20px;
+      width: 50%;
+      margin-right: 2%;
+    }
+  
+    .content h1 {
+      font-size: 28px;
+    }
+
+    .content h4 {
+        font-size: 16px;
+    }
+  
+    .content .paragraph {
+      font-size: 9px;
+    }
+
+    .logo {
+        height: 300px;
+        width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+   
+    
+    
+    .all {
+        margin-right: 1%;
+        margin-left: 1%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-behavior: initial;
+        height: 555px;
+    }
+    
+    .content {
+      
+      width: 80%;
+      margin-right: 1%;
+    }
+  
+    .content h1 {
+      font-size: 22px;
+    }
+
+    .content h2 {
+        font-size: 14px;
+    }
+  
+    .content .paragraph {
+      font-size: 7px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    
+    }
+
+    .buttons {
+        float: left;
+        width: 75px;
+    }
+   } 
