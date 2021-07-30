@@ -57,11 +57,11 @@ body{
 }
 
 .content .paragraph{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .content h4{
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .logo{
@@ -93,19 +93,19 @@ h5 a{
     color: orangered;
 }
 
-/* .typewriter{ 
-    overflow: hidden; /* Ensures the content is not revealed until the animation *
-    border-right: .15em solid green; /* The typwriter cursor *
-    white-space: nowrap; /* Keeps the content on a single line *
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens *
-    letter-spacing: .15em; /* Adjust as needed *
+ .typewriter{ 
+    overflow: hidden; 
+    border-right: .15em solid green; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
     
     animation: 
       typing 4.5s steps(32, end) infinite alternate 1s,
       blink-caret .75s step-end infinite;
-    } */
+    }
   
-  /* The typing effect 
+
    @keyframes typing { 
     from {
       width: 0ch;
@@ -116,11 +116,11 @@ h5 a{
     
   }
   
-  /* The typewriter cursor effect 
+  
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: green; }
-  /* } */
+  }
 
     @media only screen and (max-width: 992px) { 
   
