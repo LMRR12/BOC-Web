@@ -9,7 +9,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: hidden;
     background: url("./assets/screenshot.png") no-repeat center center/cover;
     z-index: -1;
@@ -93,7 +93,7 @@ h5 a{
     color: orangered;
 }
 
- .typewriter{ 
+ /* .typewriter{ 
     overflow: hidden; 
     border-right: .15em solid green; 
     white-space: nowrap; 
@@ -120,7 +120,7 @@ h5 a{
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: green; }
-  }
+   } */
 
     @media only screen and (max-width: 992px) { 
   
